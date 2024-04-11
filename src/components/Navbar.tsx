@@ -16,6 +16,7 @@ import { clearCart } from "../redux/features/CartSlice";
 import { clearWishlist } from "../redux/features/WishlistSlice";
 import { clearProductSelection } from "../redux/features/ProductSelectSlice";
 
+
 const navigation = {
   pages: [ { name: "Home", href: "/home" },
     { name: "About Us", href: "/aboutus" }],
@@ -320,7 +321,7 @@ export default function Navbar() {
       </Transition.Root>
 
       <header className="relative bg-white shadow-lg z-10 ">
-        <p className="flex h-10 items-center justify-center bg-[#34a4b8] px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+        <p className="flex h-10 items-center justify-center bg-[#fa7929] px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
 
@@ -345,8 +346,8 @@ export default function Navbar() {
                 <Link to="/">
                   <span className="sr-only">Kyro</span>
                   <img
-                    className=" h-28 w-auto"
-                    src="https://user-images.githubusercontent.com/110303752/263829424-bdddc60e-9d35-43bb-8af2-fd70335eb5db.png"
+                    className=" h-14 w-14"
+                    src='../../public/Logo.png'
                     alt=""
                   />
                 </Link>
