@@ -17,72 +17,13 @@ import { clearWishlist } from "../redux/features/WishlistSlice";
 import { clearProductSelection } from "../redux/features/ProductSelectSlice";
 
 const navigation = {
+  pages: [ { name: "Home", href: "/home" },
+    { name: "About Us", href: "/aboutus" }],
   categories: [
+    
     {
-      id: "women",
-      name: "Women",
-      featured: [
-        {
-          name: "New Arrivals",
-          href: "#",
-          imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
-          imageAlt:
-            "Models sitting back to back, wearing Basic Tee in black and bone.",
-        },
-        {
-          name: "Basic Tees",
-          href: "#",
-          imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
-          imageAlt:
-            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
-        },
-      ],
-      sections: [
-        {
-          id: "clothing",
-          name: "Clothing",
-          items: [
-            { name: "Tops", href: "#" },
-            { name: "Dresses", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Denim", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
-          ],
-        },
-        {
-          id: "accessories",
-          name: "Accessories",
-          items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
-          ],
-        },
-        {
-          id: "brands",
-          name: "Brands",
-          items: [
-            { name: "Full Nelson", href: "#" },
-            { name: "My Way", href: "#" },
-            { name: "Re-Arranged", href: "#" },
-            { name: "Counterfeit", href: "#" },
-            { name: "Significant Other", href: "#" },
-          ],
-        },
-      ],
-    },
-    {
-      id: "men",
-      name: "Men",
+      id: "shop",
+      name: "Shop",
       featured: [
         {
           name: "New Arrivals",
@@ -93,7 +34,7 @@ const navigation = {
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
         {
-          name: "Artwork Tees",
+          name: "Featured",
           href: "#",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg",
@@ -103,44 +44,35 @@ const navigation = {
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "chewbars",
+          name: "Chew Bars",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Small", href: "#" },
+            { name: "Medium", href: "#" },
+            { name: "Large", href: "#" },
+            { name: "X-Large", href: "#" },
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "treats",
+          name: "Treats",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
+            { name: "Puffed Nuggets", href: "#" },
+            { name: "Nuggets", href: "#" },
           ],
         },
         {
-          id: "brands",
-          name: "Brands",
+          id: "catcaves",
+          name: "Cat Cave",
           items: [
-            { name: "Re-Arranged", href: "#" },
-            { name: "Counterfeit", href: "#" },
-            { name: "Full Nelson", href: "#" },
-            { name: "My Way", href: "#" },
+            { name: "Designer Cat Cave", href: "#" },
+           
           ],
         },
       ],
     },
   ],
-  pages: [{ name: "Our Store", href: "/store" }],
+  
 };
 
 function classNames(...classes) {
@@ -411,7 +343,7 @@ export default function Navbar() {
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
                 <Link to="/">
-                  <span className="sr-only">Doresu Fashion</span>
+                  <span className="sr-only">Kyro</span>
                   <img
                     className=" h-28 w-auto"
                     src="https://user-images.githubusercontent.com/110303752/263829424-bdddc60e-9d35-43bb-8af2-fd70335eb5db.png"
