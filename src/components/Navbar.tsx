@@ -18,7 +18,7 @@ import { clearProductSelection } from "../redux/features/ProductSelectSlice";
 
 
 const navigation = {
-  pages: [ { name: "Home", href: "/home" },
+  pages: [ { name: "Home", href: "#" },
     { name: "About Us", href: "/aboutus" }],
   categories: [
     
@@ -30,7 +30,7 @@ const navigation = {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+            "../../public/packaging.png",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
@@ -38,7 +38,7 @@ const navigation = {
           name: "Featured",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg",
+            "../../public/packaging.png",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
@@ -136,7 +136,18 @@ export default function Navbar() {
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
                 </div>
-
+                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                  {navigation.pages.map((page) => (
+                    <div key={page.name} className="flow-root">
+                      <Link
+                        to={page.href}
+                        className="-m-2 block p-2 font-medium text-gray-900"
+                      >
+                        {page.name}
+                      </Link>
+                    </div>
+                  ))}
+                </div>
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
                   <div className="border-b border-gray-200">
@@ -231,18 +242,7 @@ export default function Navbar() {
                   </Tab.Panels>
                 </Tab.Group>
 
-                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                  {navigation.pages.map((page) => (
-                    <div key={page.name} className="flow-root">
-                      <Link
-                        to={page.href}
-                        className="-m-2 block p-2 font-medium text-gray-900"
-                      >
-                        {page.name}
-                      </Link>
-                    </div>
-                  ))}
-                </div>
+               
 
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   {!user ? (

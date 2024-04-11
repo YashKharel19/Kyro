@@ -6,7 +6,7 @@ const images = [
   {
     imageID: 1,
     imageURL:
-      "https://img.freepik.com/free-vector/flat-design-fashion-template_23-2150382681.jpg?w=1800&t=st=1694321331~exp=1694321931~hmac=4d5341b1cca54a88d9e3a0e085e48ee65231f987eb2c464b6384dd7ddf7d5848",
+      "../../public/banner.svg",
     adVarient: {
       title: "Summer Sale",
       desc: "Don't Compromise on the Sale. Get Flat 30% off for new arrivals.",
