@@ -16,7 +16,7 @@ const images = [
   {
     imageID: 2,
     imageURL:
-      "../../public/bannera.svg",
+      "../../pu blic/bannera.svg",
     adVarient: {
       title: "Winter Collection",
       desc: "Stay Warm and Stylish with our Latest Winter Collection.",
