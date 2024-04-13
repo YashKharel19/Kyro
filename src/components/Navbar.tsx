@@ -321,7 +321,7 @@ export default function Navbar() {
       </Transition.Root>
 
       <header className="relative bg-white shadow-lg z-10 ">
-        <p className="flex h-10 items-center justify-center bg-[#fa7929] px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+        <p className="flex h-10 items-center justify-center bg-[#f3e3d3] px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
 
