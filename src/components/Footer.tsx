@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="lg:flex lg:items-start lg:gap-8">
             <div className="text-teal-600">
-              <img src="https://user-images.githubusercontent.com/110303752/263829424-bdddc60e-9d35-43bb-8af2-fd70335eb5db.png" />
+              <img src="../../public/LOGO.png" />
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
@@ -24,10 +24,10 @@ const Footer = () => {
                     Subscribe To Our Newsletter
                   </h2>
 
-                  <p className="mt-4 text-gray-500">
+                  {/* <p className="mt-4 text-gray-500">
                     and receive $40 coupon for your first order when you
                     checkout
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Women
+                      Chew Bars
                     </a>
                   </li>
 
@@ -71,7 +71,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Men
+                      Treats
                     </a>
                   </li>
 
@@ -80,19 +80,9 @@ const Footer = () => {
                       href="#"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Shoes
+                      Cat Cave
                     </a>
                   </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Accessories
-                    </a>
-                  </li>
-
                   <li>
                     <a
                       href="#"
@@ -119,10 +109,10 @@ const Footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/contactus"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Pages
+                      Contacts
                     </a>
                   </li>
 
@@ -134,91 +124,9 @@ const Footer = () => {
                       Stores
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Compare
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Cookies
-                    </a>
-                  </li>
+
                 </ul>
               </div>
-
-              <div className="col-span-2 sm:col-span-1">
-                <p className="font-medium text-gray-900">Legal</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Accessibility
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Returns Policy
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Refund Policy
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Hiring Statistics
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-span-2 sm:col-span-1">
-                <p className="font-medium text-gray-900">Downloads</p>
-
-                <ul className="mt-6 space-y-4 text-sm">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      Marketing Calendar
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      SEO Infographics
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
               <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
                 <li>
                   <a
@@ -246,7 +154,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/kyroment/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -267,15 +175,14 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
                   >
-                    <span className="sr-only">Twitter</span>
+                    <span className="sr-only">Tiktok</span>
 
                     <svg
                       className="h-6 w-6"
@@ -283,7 +190,7 @@ const Footer = () => {
                       viewBox="0 0 24 24"
                       aria-hidden="true"
                     >
-                      <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.367 8.76c-.014.1-.098.173-.192.173H9.825c-.1 0-.178-.074-.192-.173l-.22-1.602c-.018-.116.06-.226.176-.243.022-.004.043-.006.064-.006h1.688c.098 0 .187.068.208.165l.165.9c.027.156.144.283.3.308.084.013.166-.024.211-.1l.401-.732c.065-.112.22-.112.285 0l.4.732c.045.076.127.113.211.1.155-.025.272-.152.3-.308l.165-.9c.02-.097.11-.165.208-.165h1.689c.076 0 .142.05.165.12.023.07-.01.145-.065.187l-2.094 1.628z" />
                     </svg>
                   </a>
                 </li>
@@ -295,7 +202,27 @@ const Footer = () => {
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
                   >
-                    <span className="sr-only">GitHub</span>
+                    <span className="sr-only">Pinterest</span>
+
+                    <svg
+                      className="h-6 w-6"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path d="M11.991.056C5.399.056.054 5.4.054 11.993c0 4.836 3.104 8.946 7.436 10.433-.102-.906-.195-2.303.039-3.298.215-.924 1.391-5.877 1.391-5.877s-.354-.715-.354-1.77c0-1.655.961-2.891 2.16-2.891 1.019 0 1.514.768 1.514 1.685 0 1.025-.652 2.555-.992 3.977-.283 1.181.6 2.146 1.759 2.146 2.11 0 3.743-2.226 3.743-5.431 0-2.835-2.038-4.817-4.947-4.817-3.373 0-5.382 2.522-5.382 5.132 0 .997.37 1.653.937 2.162.104.124.117.232.085.376-.09.387-.295 1.223-.338 1.397-.064.255-.218.307-.49.186-1.854-.89-3.022-3.678-3.022-6.188 0-5.194 3.783-9.516 10.703-9.516 5.657 0 9.433 3.816 9.433 8.009 0 5.395-3.084 9.724-7.633 9.724-1.494 0-2.894-.77-3.373-1.683l-.918 3.575c-.254.99-.953 2.23-1.416 2.987.088.209.341.46.512.614.433.414 1.08.767 1.614.755 1.368-.028 2.415-1.675 2.415-3.238 0-2.549-1.467-4.477-3.587-4.477-1.271 0-2.236.936-2.044 2.193.397 2.05 1.176 4.265 1.176 5.731 0 .671-.368 1.234-1.127 1.234-.224 0-.405-.191-.346-.416.064-.258.187-.848.253-1.126.12-.553.066-1.215-.063-1.646-.322-1.245-.843-2.743-.843-3.684 0-1.484.855-2.743 2.624-2.743 1.233 0 2.177.85 2.177 2.004 0 1.484-.753 3.478-1.277 4.837-.093.235-.381.46-.69.386-1.428-.34-2.451-1.838-2.451-3.649 0-2.754 2.202-6.092 6.551-6.092 3.402 0 5.979 2.464 5.979 5.755 0 3.399-2.15 6.14-5.124 6.14-1.006 0-1.962-.504-2.287-1.093l-.743 2.893c-.254.99-1.127 2.229-1.676 2.986.088.209.341.46.512.614.433.414 1.08.767 1.614.755 1.368-.028 2.415-1.675 2.415-3.238 0-2.088-1.192-4.398-3.322-4.398-1.265 0-2.236.936-2.044 2.193z" />
+
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCPt4JeUCmlYWX0lhQrdcyBg"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="text-gray-700 transition hover:opacity-75"
+                  >
+                    <span className="sr-only">Youtube</span>
 
                     <svg
                       className="h-6 w-6"
@@ -305,36 +232,12 @@ const Footer = () => {
                     >
                       <path
                         fillRule="evenodd"
-                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.25 15.755l5.533-3.162-5.533-3.162v6.324z"
                         clipRule="evenodd"
                       />
                     </svg>
                   </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    <span className="sr-only">Dribbble</span>
-
-                    <svg
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -342,7 +245,7 @@ const Footer = () => {
           <div className="mt-8 border-t border-gray-100 pt-8">
             <div className="sm:flex sm:justify-between">
               <p className="text-xs text-gray-500">
-                &copy; {new Date().getFullYear()}. Doresu Fashion. All rights
+                &copy; {new Date().getFullYear()}. KYRO. All rights
                 reserved.
               </p>
 

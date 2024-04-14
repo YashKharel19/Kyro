@@ -69,7 +69,7 @@ const MainCarousel = () => {
               alt={image.imageURL}
               className="w-full h-[700px] object-cover bg-fixed"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
+            {/* <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-full h-full flex items-end justify-end p-6">
                 <div className="w-1/2 h-[50%] bg-opacity-70 backdrop-blur-md backdrop-brightness-75 text-white p-6 flex flex-col items-center justify-center">
                   <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 text-center">
@@ -83,7 +83,7 @@ const MainCarousel = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         ))}
       </Carousel>

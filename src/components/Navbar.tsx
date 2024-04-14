@@ -29,16 +29,14 @@ const navigation = {
         {
           name: "New Arrivals",
           href: "#",
-          imageSrc:
-            "../../public/packaging.png",
+          imageSrc:"../../public/packaging.png",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
         {
           name: "Featured",
           href: "#",
-          imageSrc:
-            "../../public/packaging.png",
+          imageSrc:"../../public/packaging.png",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
