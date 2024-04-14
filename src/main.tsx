@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import "./global.css";
 import Login from "./pages/welcome/Login";
 import Register from "./pages/welcome/Register";
+import ContactUs from "./pages/contactUs/ContactUs";
 import Home from "./pages/home/Home";
 import Product from "./pages/products/Product";
 import Order from "./pages/orders/Order";
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
     element: <AdminLogin />,
   },
   { path: "/register", element: <Register /> },
+  {path:"/contactUs", element: <ContactUs />},
   {
     path: "/",
     element: <Layout />,
