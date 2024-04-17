@@ -161,7 +161,8 @@ const CartMenu = ({ onCloseCart, isCartOpen }) => {
                           Your Cart is Empty
                         </p>
                         <img
-                          src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-2130356-1800917.png"
+                          src="../../assets/emptycart.svg"
+                          
                           alt=""
                           className="h-full w-full object-cover"
                         />

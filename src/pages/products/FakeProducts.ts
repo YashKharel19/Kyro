@@ -1,9 +1,8 @@
 export const productsItems = [
   {
     productID: 1,
-    title: "Jackets",
-    images:
-      "https://images.pexels.com/photos/17997570/pexels-photo-17997570/free-photo-of-redhead-woman-in-black-clothes.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Chew Bars",
+    images:"src\assets\6.jpg"
     description:
       "Unleash timeless style with our collection of meticulously crafted leather jackets, blending vintage appeal with contemporary flair.",
     price: 10.55,
