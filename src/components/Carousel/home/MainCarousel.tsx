@@ -6,7 +6,7 @@ const images = [
   {
     imageID: 1,
     imageURL:
-      "../../public/banner.svg",
+    "../../../../src/assets/banner/banner.svg",
     adVarient: {
       title: "Summer Sale",
       desc: "Don't Compromise on the Sale. Get Flat 30% off for new arrivals.",
@@ -16,7 +16,7 @@ const images = [
   {
     imageID: 2,
     imageURL:
-      "../../public/bannera.svg",
+    "../../../../src/assets/banner/bannera.svg",
     adVarient: {
       title: "Winter Collection",
       desc: "Stay Warm and Stylish with our Latest Winter Collection.",
@@ -25,7 +25,7 @@ const images = [
   {
     imageID: 3,
     imageURL:
-      "../../public/bannerb.svg",
+    "../../../../src/assets/banner/bannerc.svg",
     adVarient: {
       title: "Holiday Special",
       desc: "Celebrate the Holidays with our Exclusive Holiday Collection.",
