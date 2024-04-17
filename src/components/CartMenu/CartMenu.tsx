@@ -161,10 +161,10 @@ const CartMenu = ({ onCloseCart, isCartOpen }) => {
                           Your Cart is Empty
                         </p>
                         <img
-                          src="../../assets/emptycart.svg"
+                          src="/src/assets/emptycart.svg"
                           
                           alt=""
-                          className="h-full w-full object-cover"
+                          className="h-60 w-60 object-cover"
                         />
                       </div>
                     )}
