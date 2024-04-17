@@ -26,7 +26,7 @@
   "_id": {
     "$oid": "64f78b99d4a17566e38285df"
   },
-  "name": "X-Large",
+  "name": "x-large",
   "quantity": 18,
   "_class": "com.kyro.products.model.Size"
 }]
