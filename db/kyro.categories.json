@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "64f78985d4a17566e38285ca"
+  },
+  "name": "Women's Dresses",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78ce3d4a17566e38285ef"
+  },
+  "name": "Women's Blouses",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f79170d4a17566e382861f"
+  },
+  "name": "Accessories",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78c35d4a17566e38285e6"
+  },
+  "name": "Men's Jeans",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f788c0d4a17566e38285c3"
+  },
+  "name": "Men's Suits",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78b99d4a17566e38285dd"
+  },
+  "name": "Women's Shoes",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f789fed4a17566e38285d1"
+  },
+  "name": "Men's Shirts",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78833d4a17566e38285bc"
+  },
+  "name": "Women's Jackets",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f7905bd4a17566e3828612"
+  },
+  "name": "Men's Pants",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f787c7d4a17566e38285b2"
+  },
+  "name": "Women's Sweaters",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78d8cd4a17566e38285f6"
+  },
+  "name": "Men's Jackets",
+  "_class": "com.doresuecommerce.products.model.Category"
+},
+{
+  "_id": {
+    "$oid": "64f78ef1d4a17566e3828607"
+  },
+  "name": "Women's Shirts",
+  "_class": "com.doresuecommerce.products.model.Category"
+}]

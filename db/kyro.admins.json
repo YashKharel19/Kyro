@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "64fe1a481592f6267f9f3122"
+  },
+  "firstname": "admin2",
+  "lastname": "admin2",
+  "email": "admin2@gmail.com",
+  "password": "$2a$10$cRSTeGWT9KxTcmvKMgaqLuXjtHS4BBa6Sqh46lVwAQWZd8ghjJhbm",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+},
+{
+  "_id": {
+    "$oid": "64fe301f4c167304cdf7a9a5"
+  },
+  "firstname": "admin3",
+  "lastname": "admin3",
+  "email": "admin3@gmail.com",
+  "password": "$2a$10$n3o0UJkErkBLmt6iB7gThuyl4.T8xwvp859f05oURuE/AhQUCFbTe",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+},
+{
+  "_id": {
+    "$oid": "64fe074dc59b8a4f1e4aaa4e"
+  },
+  "firstname": "superadmin",
+  "lastname": "superadmin",
+  "email": "superadmin@gmail.com",
+  "password": "$2a$10$6kV1tl7Eb5fR731quC32suMa4g0V4z3vVpeWr.5DP3clPhLfCgLFG",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+},
+{
+  "_id": {
+    "$oid": "64fe0c201592f6267f9f3110"
+  },
+  "firstname": "admin1",
+  "lastname": "admin1",
+  "email": "admin1@gmail.com",
+  "password": "$2a$10$dot6HbL2qCecVgCKOR4uOe1ag.qtzLFgMpfKPIKDio/vjEAeQ.OmO",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+},
+{
+  "_id": {
+    "$oid": "64ff15a48648123e23f51c00"
+  },
+  "firstname": "yogesh",
+  "lastname": "yogesh",
+  "email": "yogesh@gmail.com",
+  "password": "$2a$10$/hJXRxuiEQv3tmgjbZPZLOZNI5rFDkJcxN.qCXvA.1crzKq1qjA2G",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+},
+{
+  "_id": {
+    "$oid": "64fe35734c167304cdf7a9ae"
+  },
+  "firstname": "admin4",
+  "lastname": "admin3",
+  "email": "admin4@gmail.com",
+  "password": "$2a$10$BLh.95CC4Mmop8Q2hU23EOegdfzY2OFsPYRYIloO8DCpa/x1hfU7C",
+  "role": "ADMIN",
+  "_class": "com.doresu.admin.adminModel.RegisterAdmin"
+}]

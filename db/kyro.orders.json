@@ -1,0 +1,946 @@
+[{
+  "_id": {
+    "$oid": "64faa4008180bb7ae5f473e8"
+  },
+  "orderId": "1004",
+  "userId": "amosh@gmail.com",
+  "accFirstname": "Amosh",
+  "accLastname": "Shakya",
+  "accEmail": "amosh@gmail.com",
+  "orderDate": "8th September 2023 at 12:33 AM",
+  "expectedDate": "12th September 2023",
+  "status": "Shipped",
+  "totalPrice": 119.98,
+  "deliveryAddress": {
+    "firstName": "",
+    "lastName": "",
+    "addressLine": "",
+    "phoneNumber": "",
+    "city": "",
+    "province": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "orderItems": [
+    {
+      "productId": "64f787c7d4a17566e38285bb",
+      "productName": "Cozy Knit Sweater",
+      "productBrand": "Knitwear Co.",
+      "productColor": "Beige",
+      "productSize": "Small",
+      "category": "Women's Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    },
+    {
+      "productId": "64f78833d4a17566e38285c2",
+      "productName": "Denim Jacket",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "Small",
+      "category": "Women's Jackets",
+      "images": "https://images.pexels.com/photos/1107971/pexels-photo-1107971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 69.99,
+      "subtotal": 69.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fa4c0d8180bb7ae5f473b5"
+  },
+  "orderId": "1001",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "7th September 2023 at 6:17 PM",
+  "status": "Order Confirmed",
+  "totalPrice": 389.94,
+  "deliveryAddress": {
+    "firstName": "New ",
+    "lastName": "Address",
+    "addressLine": "Kathmandu",
+    "phoneNumber": "329-323-3222",
+    "city": "Kathmandu",
+    "province": "Bagmati",
+    "postalCode": "445603",
+    "country": "Nepal"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78f5dd4a17566e3828611",
+      "productName": "Elegant Women's Blouse",
+      "productBrand": "ElegantFashion",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "Women's Blouses",
+      "images": "https://images.pexels.com/photos/6758073/pexels-photo-6758073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    },
+    {
+      "productId": "64f7905bd4a17566e3828619",
+      "productName": "Men's Casual Pants",
+      "productBrand": "CasualWear",
+      "productColor": "Khaki",
+      "productSize": "30W x 32L",
+      "category": "Men's Pants",
+      "images": "https://images.pexels.com/photos/6311142/pexels-photo-6311142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 39.99,
+      "subtotal": 39.99
+    },
+    {
+      "productId": "64f790ced4a17566e382861e",
+      "productName": "Strappy Summer Dress",
+      "productBrand": "SummerStyle",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "Women's Dresses",
+      "images": "https://images.pexels.com/photos/18127915/pexels-photo-18127915/free-photo-of-a-woman-standing-on-a-wooden-footbridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 34.99,
+      "subtotal": 34.99
+    },
+    {
+      "productId": "64f79171d4a17566e3828628",
+      "productName": "Classic Leather Belt",
+      "productBrand": "LeatherCraft",
+      "productColor": "Brown",
+      "productSize": "32",
+      "category": "Accessories",
+      "images": "https://images.pexels.com/photos/4905829/pexels-photo-4905829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 24.99,
+      "subtotal": 24.99
+    },
+    {
+      "productId": "64f791ccd4a17566e3828631",
+      "productName": "Men's Slim Fit Suit",
+      "productBrand": "SuitUp",
+      "productColor": "Charcoal Gray",
+      "productSize": "40R",
+      "category": "Men's Suits",
+      "images": "https://images.pexels.com/photos/17897807/pexels-photo-17897807/free-photo-of-young-man-in-a-white-suit-posing-in-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 2,
+      "price": 119.99,
+      "subtotal": 239.98
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fdedf8a584b03a78acd083"
+  },
+  "orderId": "1013",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 12:25 PM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 59.99,
+  "deliveryAddress": {
+    "firstName": "new",
+    "lastName": "new",
+    "addressLine": "new",
+    "phoneNumber": "233-242-3234",
+    "city": "new",
+    "province": "new",
+    "postalCode": "new",
+    "country": "new"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd4693df1bc116872c8ccf",
+      "productName": "Summer Maxi Dress",
+      "productBrand": "Summer Bliss",
+      "productColor": "Coral",
+      "productSize": "small",
+      "category": "Dresses",
+      "images": "https://images.pexels.com/photos/4998599/pexels-photo-4998599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 59.99,
+      "subtotal": 59.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64faaf228180bb7ae5f473ea"
+  },
+  "orderId": "1006",
+  "userId": "amosh@gmail.com",
+  "accFirstname": "Amosh",
+  "accLastname": "Shakya",
+  "accEmail": "amosh@gmail.com",
+  "orderDate": "8th September 2023 at 1:20 AM",
+  "expectedDate": "12th September 2023",
+  "status": "Out For Delivery",
+  "totalPrice": 219.98,
+  "deliveryAddress": {
+    "firstName": "Nayan",
+    "lastName": "Bastola",
+    "addressLine": "Hazelnut Crescent",
+    "phoneNumber": "233-242-3234",
+    "city": "North York",
+    "province": "ON",
+    "postalCode": "M20323",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78833d4a17566e38285c2",
+      "productName": "Denim Jacket",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "Small",
+      "category": "Women's Jackets",
+      "images": "https://images.pexels.com/photos/1107971/pexels-photo-1107971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 69.99,
+      "subtotal": 69.99
+    },
+    {
+      "productId": "64f788c0d4a17566e38285c9",
+      "productName": "Classic Men's Suit",
+      "productBrand": "ElegantWear",
+      "productColor": "Black",
+      "productSize": "Small",
+      "category": "Men's Suits",
+      "images": "https://images.pexels.com/photos/4947740/pexels-photo-4947740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 149.99,
+      "subtotal": 149.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64ff13eef609d33f20abec3d"
+  },
+  "orderId": "1015",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "11th September 2023 at 9:19 AM",
+  "expectedDate": "15th September 2023",
+  "status": "Shipped",
+  "totalPrice": 549.9,
+  "deliveryAddress": {
+    "firstName": "Nayan",
+    "lastName": "Bastola",
+    "addressLine": "hazelnut",
+    "phoneNumber": "233-242-3234",
+    "city": "North York",
+    "province": "ON",
+    "postalCode": "MS29332",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16bcdf1bc116872c8cc9",
+      "productName": "New Sweater",
+      "productBrand": "New Co.",
+      "productColor": "Purple",
+      "productSize": "Small",
+      "category": "Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    },
+    {
+      "productId": "64fd16d8df1bc116872c8cca",
+      "productName": "Classic T-Shirt",
+      "productBrand": "Everyday Wear",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "T-Shirts",
+      "images": "https://images.pexels.com/photos/18178103/pexels-photo-18178103/free-photo-of-man-leaning-on-the-bridge-railing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 19.99,
+      "subtotal": 19.99
+    },
+    {
+      "productId": "64fd4693df1bc116872c8ccf",
+      "productName": "Summer Maxi Dress",
+      "productBrand": "Summer Bliss",
+      "productColor": "Coral",
+      "productSize": "small",
+      "category": "Dresses",
+      "images": "https://images.pexels.com/photos/4998599/pexels-photo-4998599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 8,
+      "price": 59.99,
+      "subtotal": 479.92
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64faa2318180bb7ae5f473e6"
+  },
+  "orderId": "1003",
+  "userId": "amosh@gmail.com",
+  "accFirstname": "Amosh",
+  "accLastname": "Shakya",
+  "accEmail": "amosh@gmail.com",
+  "orderDate": "8th September 2023 at 12:25 AM",
+  "status": "Order Confirmed",
+  "totalPrice": 134.98,
+  "deliveryAddress": {
+    "firstName": "",
+    "lastName": "",
+    "addressLine": "",
+    "phoneNumber": "",
+    "city": "",
+    "province": "",
+    "postalCode": "",
+    "country": ""
+  },
+  "orderItems": [
+    {
+      "productId": "64f78b9ad4a17566e38285e5",
+      "productName": "Leather Ankle Boots",
+      "productBrand": "BootStyle",
+      "productColor": "Black",
+      "productSize": "US 6",
+      "category": "Women's Shoes",
+      "images": "https://images.pexels.com/photos/8557943/pexels-photo-8557943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 79.99,
+      "subtotal": 79.99
+    },
+    {
+      "productId": "64f78a71d4a17566e38285dc",
+      "productName": "Striped Maxi Dress",
+      "productBrand": "StripedStyle",
+      "productColor": "Navy Blue",
+      "productSize": "Small",
+      "category": "Women's Dresses",
+      "images": "https://images.pexels.com/photos/18102748/pexels-photo-18102748/free-photo-of-woman-posing-in-a-hayfield-wearing-a-blue-dress-with-a-veil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 54.99,
+      "subtotal": 54.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fdf13da584b03a78acd084"
+  },
+  "orderId": "1014",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 12:39 PM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 49.99,
+  "deliveryAddress": {
+    "firstName": "dfas",
+    "lastName": "asdf",
+    "addressLine": "asdf",
+    "phoneNumber": "230-232-2333",
+    "city": "adsf",
+    "province": "asdf",
+    "postalCode": "asdf",
+    "country": "asdf"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16bcdf1bc116872c8cc9",
+      "productName": "New Sweater",
+      "productBrand": "New Co.",
+      "productColor": "Purple",
+      "productSize": "Small",
+      "category": "Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64faae268180bb7ae5f473e9"
+  },
+  "orderId": "1005",
+  "userId": "amosh@gmail.com",
+  "accFirstname": "Amosh",
+  "accLastname": "Shakya",
+  "accEmail": "amosh@gmail.com",
+  "orderDate": "8th September 2023 at 1:16 AM",
+  "expectedDate": "12th September 2023",
+  "status": "Delivered",
+  "totalPrice": 319.94,
+  "deliveryAddress": {
+    "firstName": "New Customer",
+    "lastName": "New Customer",
+    "addressLine": "New Customer",
+    "phoneNumber": "439-499-4444",
+    "city": "New",
+    "province": "New",
+    "postalCode": "New",
+    "country": "New"
+  },
+  "orderItems": [
+    {
+      "productId": "64f787c7d4a17566e38285bb",
+      "productName": "Cozy Knit Sweater",
+      "productBrand": "Knitwear Co.",
+      "productColor": "Beige",
+      "productSize": "Small",
+      "category": "Women's Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 5,
+      "price": 49.99,
+      "subtotal": 249.95000000000002
+    },
+    {
+      "productId": "64f78833d4a17566e38285c2",
+      "productName": "Denim Jacket",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "Small",
+      "category": "Women's Jackets",
+      "images": "https://images.pexels.com/photos/1107971/pexels-photo-1107971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 69.99,
+      "subtotal": 69.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fd58c5df1bc116872c8cd0"
+  },
+  "orderId": "1009",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 1:48 AM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 179.97,
+  "deliveryAddress": {
+    "firstName": "Second",
+    "lastName": "Order",
+    "addressLine": "Second Street",
+    "phoneNumber": "239-233-2222",
+    "city": "New York",
+    "province": "California",
+    "postalCode": "2jdew93",
+    "country": "Murica"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16dedf1bc116872c8ccb",
+      "productName": "Denim Jeans",
+      "productBrand": "Blue Jeans Co.",
+      "quantity": 3,
+      "price": 59.99,
+      "subtotal": 179.97
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fdeb24a584b03a78acd082"
+  },
+  "orderId": "1012",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 12:13 PM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 19.99,
+  "deliveryAddress": {
+    "firstName": "Nayan",
+    "lastName": "Bastola",
+    "addressLine": "Hazelnut Cresent",
+    "phoneNumber": "239-323-2222",
+    "city": "North York",
+    "province": "ON",
+    "postalCode": "masd203",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16d8df1bc116872c8cca",
+      "productName": "Classic T-Shirt",
+      "productBrand": "Everyday Wear",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "T-Shirts",
+      "images": "https://images.pexels.com/photos/18178103/pexels-photo-18178103/free-photo-of-man-leaning-on-the-bridge-railing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 19.99,
+      "subtotal": 19.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fa2a279467bb09b01546d4"
+  },
+  "orderId": "1000",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "7th September 2023 at 3:52 PM",
+  "status": "Order Confirmed",
+  "totalPrice": 289.95,
+  "deliveryAddress": {
+    "firstName": "Nayan",
+    "lastName": "Bastola",
+    "addressLine": "Hazelnut Crescent",
+    "phoneNumber": "293-233-2333",
+    "city": "North York",
+    "province": "ON",
+    "postalCode": "M320332",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78986d4a17566e38285d0",
+      "productName": "Summer Floral Dress",
+      "productBrand": "FloralFashion",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "Women's Dresses",
+      "images": "https://images.pexels.com/photos/17993591/pexels-photo-17993591/free-photo-of-smiling-woman-wearing-a-dress-standing-in-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 59.99,
+      "subtotal": 59.99
+    },
+    {
+      "productId": "64f78c36d4a17566e38285ee",
+      "productName": "Men's Slim Fit Jeans",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "28W x 30L",
+      "category": "Men's Jeans",
+      "images": "https://images.pexels.com/photos/4400206/pexels-photo-4400206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 3,
+      "price": 49.99,
+      "subtotal": 149.97
+    },
+    {
+      "productId": "64f78b9ad4a17566e38285e5",
+      "productName": "Leather Ankle Boots",
+      "productBrand": "BootStyle",
+      "productColor": "Black",
+      "productSize": "US 6",
+      "category": "Women's Shoes",
+      "images": "https://images.pexels.com/photos/8557943/pexels-photo-8557943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 79.99,
+      "subtotal": 79.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fd5b05df1bc116872c8cd1"
+  },
+  "orderId": "1010",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 1:58 AM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 59.97,
+  "deliveryAddress": {
+    "firstName": "Hashi",
+    "lastName": "Neu",
+    "addressLine": "Hashi",
+    "phoneNumber": "923-233-2222",
+    "city": "Kyoto",
+    "province": "Osaka",
+    "postalCode": "ASDF23",
+    "country": "Japan"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16d8df1bc116872c8cca",
+      "productName": "Classic T-Shirt",
+      "productBrand": "Everyday Wear",
+      "images": "https://images.pexels.com/photos/18178103/pexels-photo-18178103/free-photo-of-man-leaning-on-the-bridge-railing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 3,
+      "price": 19.99,
+      "subtotal": 59.97
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fab3058180bb7ae5f473eb"
+  },
+  "orderId": "1007",
+  "userId": "anish@gmail.com",
+  "accFirstname": "anish",
+  "accLastname": "ronesh",
+  "accEmail": "anish@gmail.com",
+  "orderDate": "8th September 2023 at 1:37 AM",
+  "expectedDate": "12th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 154.97,
+  "deliveryAddress": {
+    "firstName": "Anish",
+    "lastName": "Ronesh",
+    "addressLine": "New Jersey",
+    "phoneNumber": "293-323-2323",
+    "city": "New Jersey",
+    "province": "IDK",
+    "postalCode": "2903302",
+    "country": "USA"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78833d4a17566e38285c2",
+      "productName": "Denim Jacket",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "Small",
+      "category": "Women's Jackets",
+      "images": "https://images.pexels.com/photos/1107971/pexels-photo-1107971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 69.99,
+      "subtotal": 69.99
+    },
+    {
+      "productId": "64f787c7d4a17566e38285bb",
+      "productName": "Cozy Knit Sweater",
+      "productBrand": "Knitwear Co.",
+      "productColor": "Beige",
+      "productSize": "Small",
+      "category": "Women's Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    },
+    {
+      "productId": "64f789fed4a17566e38285d6",
+      "productName": "Casual Men's Shirt",
+      "productBrand": "CasualWear",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "Men's Shirts",
+      "images": "https://images.pexels.com/photos/5191436/pexels-photo-5191436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 34.99,
+      "subtotal": 34.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fa9cbe8180bb7ae5f473e3"
+  },
+  "orderId": "1002",
+  "userId": "amosh@gmail.com",
+  "accFirstname": "Amosh",
+  "accLastname": "Shakya",
+  "accEmail": "amosh@gmail.com",
+  "orderDate": "8th September 2023 at 12:01 AM",
+  "status": "Out For Delivery",
+  "totalPrice": 359.97,
+  "deliveryAddress": {
+    "firstName": "Amosh",
+    "lastName": "Shakya",
+    "addressLine": "302 Somestreet",
+    "phoneNumber": "293-232-3222",
+    "city": "Sydney",
+    "province": "NSW",
+    "postalCode": "293032",
+    "country": "Australia"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78986d4a17566e38285d0",
+      "productName": "Summer Floral Dress",
+      "productBrand": "FloralFashion",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "Women's Dresses",
+      "images": "https://images.pexels.com/photos/17993591/pexels-photo-17993591/free-photo-of-smiling-woman-wearing-a-dress-standing-in-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 59.99,
+      "subtotal": 59.99
+    },
+    {
+      "productId": "64f788c0d4a17566e38285c9",
+      "productName": "Classic Men's Suit",
+      "productBrand": "ElegantWear",
+      "productColor": "Black",
+      "productSize": "Small",
+      "category": "Men's Suits",
+      "images": "https://images.pexels.com/photos/4947740/pexels-photo-4947740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 2,
+      "price": 149.99,
+      "subtotal": 299.98
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fca58f2a6482450f9cb345"
+  },
+  "orderId": "1008",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "9th September 2023 at 1:04 PM",
+  "expectedDate": "13th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 69.99,
+  "deliveryAddress": {
+    "firstName": "New ",
+    "lastName": "Order",
+    "addressLine": "Texas",
+    "phoneNumber": "239-323-3322",
+    "city": "Texas",
+    "province": "Texas",
+    "postalCode": "2932MD",
+    "country": "USA"
+  },
+  "orderItems": [
+    {
+      "productId": "64f78833d4a17566e38285c2",
+      "productName": "Denim Jacket",
+      "productBrand": "DenimStyle",
+      "productColor": "Blue",
+      "productSize": "Small",
+      "category": "Women's Jackets",
+      "images": "https://images.pexels.com/photos/1107971/pexels-photo-1107971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 69.99,
+      "subtotal": 69.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64fd5c7adf1bc116872c8cd2"
+  },
+  "orderId": "1011",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "10th September 2023 at 2:04 AM",
+  "expectedDate": "14th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 299.95,
+  "deliveryAddress": {
+    "firstName": "hashi",
+    "lastName": "neu",
+    "addressLine": "Tokyo",
+    "phoneNumber": "323-232-3222",
+    "city": "Kyoto",
+    "province": "Osaka",
+    "postalCode": "MS29332",
+    "country": "Japan"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16ebdf1bc116872c8cce",
+      "productName": "Running Shoes",
+      "productBrand": "Runners' Gear",
+      "productColor": "Gray",
+      "productSize": "7",
+      "category": "Footwear",
+      "images": "https://images.pexels.com/photos/10257963/pexels-photo-10257963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 5,
+      "price": 59.99,
+      "subtotal": 299.95
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "64ff3e3e029d5d31998f6f28"
+  },
+  "orderId": "1016",
+  "userId": "nayan@gmail.com",
+  "accFirstname": "nayan",
+  "accLastname": "bastola",
+  "accEmail": "nayan@gmail.com",
+  "orderDate": "11th September 2023 at 12:19 PM",
+  "expectedDate": "15th September 2023",
+  "status": "Order Placed",
+  "totalPrice": 129.97,
+  "deliveryAddress": {
+    "firstName": "Nayan",
+    "lastName": "Bastola",
+    "addressLine": "New Address",
+    "phoneNumber": "293-323-233",
+    "city": "New City",
+    "province": "Capitol",
+    "postalCode": "MEI2032",
+    "country": "Euresia"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16bcdf1bc116872c8cc9",
+      "productName": "New Sweater",
+      "productBrand": "New Co.",
+      "productColor": "Purple",
+      "productSize": "Small",
+      "category": "Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 49.99,
+      "subtotal": 49.99
+    },
+    {
+      "productId": "64fd16d8df1bc116872c8cca",
+      "productName": "Classic T-Shirt",
+      "productBrand": "Everyday Wear",
+      "productColor": "White",
+      "productSize": "Small",
+      "category": "T-Shirts",
+      "images": "https://images.pexels.com/photos/18178103/pexels-photo-18178103/free-photo-of-man-leaning-on-the-bridge-railing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 19.99,
+      "subtotal": 19.99
+    },
+    {
+      "productId": "64fd4693df1bc116872c8ccf",
+      "productName": "Summer Maxi Dress",
+      "productBrand": "Summer Bliss",
+      "productColor": "Coral",
+      "productSize": "small",
+      "category": "Dresses",
+      "images": "https://images.pexels.com/photos/4998599/pexels-photo-4998599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 59.99,
+      "subtotal": 59.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "661f062426e2771dc9324f00"
+  },
+  "orderId": "1017",
+  "userId": "yashk@gmail.com",
+  "accFirstname": "yash",
+  "accLastname": "Kharel",
+  "accEmail": "yashk@gmail.com",
+  "orderDate": "16th April 2024 at 7:13 PM",
+  "expectedDate": "20th April 2024",
+  "status": "Order Placed",
+  "totalPrice": 59.99,
+  "deliveryAddress": {
+    "firstName": "Yash",
+    "lastName": "Kharel",
+    "addressLine": "77 Culver Crescent",
+    "phoneNumber": "(548) 881-7339",
+    "city": "London, Ontario",
+    "province": "Ontario (ON)",
+    "postalCode": "N5V 3G3",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd4693df1bc116872c8ccf",
+      "productName": "Summer Maxi Dress",
+      "productBrand": "Summer Bliss",
+      "productColor": "Coral",
+      "productSize": "small",
+      "category": "Dresses",
+      "images": "https://images.pexels.com/photos/4998599/pexels-photo-4998599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 1,
+      "price": 59.99,
+      "subtotal": 59.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+},
+{
+  "_id": {
+    "$oid": "661f2f7426e2771dc9324f01"
+  },
+  "orderId": "1018",
+  "userId": "yashk@gmail.com",
+  "accFirstname": "yash",
+  "accLastname": "Kharel",
+  "accEmail": "yashk@gmail.com",
+  "orderDate": "16th April 2024 at 10:09 PM",
+  "expectedDate": "20th April 2024",
+  "status": "Order Placed",
+  "totalPrice": 554.89,
+  "deliveryAddress": {
+    "firstName": "Yash",
+    "lastName": "Kharel",
+    "addressLine": "77 Culver Crescent",
+    "phoneNumber": "(548) 881-7339",
+    "city": "London, Ontario",
+    "province": "Ontario (ON)",
+    "postalCode": "N5V 3G3",
+    "country": "Canada"
+  },
+  "orderItems": [
+    {
+      "productId": "64fd16bcdf1bc116872c8cc9",
+      "productName": "New Sweater",
+      "productBrand": "New Co.",
+      "productColor": "Purple",
+      "productSize": "Small",
+      "category": "Sweaters",
+      "images": "https://images.pexels.com/photos/6968340/pexels-photo-6968340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "quantity": 10,
+      "price": 49.99,
+      "subtotal": 499.90000000000003
+    },
+    {
+      "productId": "64fe7ed4a584b03a78acd089",
+      "productName": "Women's Sneakers",
+      "productBrand": "SneakFreak",
+      "productColor": "Pink",
+      "productSize": "small",
+      "category": "Sneakers",
+      "images": "https://images.pexels.com/photos/4498605/pexels-photo-4498605.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "quantity": 1,
+      "price": 54.99,
+      "subtotal": 54.99
+    }
+  ],
+  "_class": "com.doresuecommerce.products.model.Orders"
+}]

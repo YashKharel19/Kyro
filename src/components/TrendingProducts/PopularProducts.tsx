@@ -135,8 +135,10 @@ const PopularProducts = () => {
                     isNoneMobile ? "sm:w-full" : "sm:w-1/2 md:w-full"
                   }`}
                   onError={(e) => {
-                    e.target.src =
-                      "https://raw.githubusercontent.com/koehlersimon/fallback/master/Resources/Public/Images/placeholder.jpg"; // Provide a fallback image URL
+                    console.log(e);
+                    // e.target.src =
+                    //   "https://raw.githubusercontent.com/koehlersimon/fallback/master/Resources/Public/Images/placeholder.jpg"; 
+                      // Provide a fallback image URL
                   }}
                 />
                 <div

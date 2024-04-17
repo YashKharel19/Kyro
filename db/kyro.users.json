@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "64f65de5e4b8c06564b57952"
+  },
+  "firstname": "niba",
+  "lastname": "niba",
+  "email": "niba@gmail.com",
+  "password": "$2a$10$K5ivDJroxWKZi4R0TbT/he2s.kqf/Og4rfoGn3Qxp78FWsI3m8TxW",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f63cbae4b8c06564b57944"
+  },
+  "firstname": "nayan",
+  "lastname": "bastola",
+  "email": "nayan@gmail.com",
+  "password": "$2a$10$p6TB5Gp12knnMbX1Fx808eH1ucG/BWoLhgQp1Hmdl53iNabr0poo2",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65dace4b8c06564b57951"
+  },
+  "firstname": "mobile",
+  "lastname": "mobile",
+  "email": "mobile4@gmail.com",
+  "password": "$2a$10$cywxq7XNGdgrhTE4iOS5SORKnbuWycMlsViS2PnFNON067plozUkG",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65c99e4b8c06564b5794d"
+  },
+  "firstname": "john",
+  "lastname": "doe",
+  "email": "john@gmail.com",
+  "password": "$2a$10$bydrrWgobFadVqE3MNCfo.fOx4BZ6YThNohm1y5xNIN6coun.YHc6",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65d76e4b8c06564b57950"
+  },
+  "firstname": "mobile",
+  "lastname": "mobile",
+  "email": "mobile@gmail.com",
+  "password": "$2a$10$y7QR1aQjEc9tmphysMrgSObjaqST2pGXUJlpk66IlILU1jrZdT3fO",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f731b40c1fc3443e0b3c7e"
+  },
+  "firstname": "new5",
+  "lastname": "new5",
+  "email": "new5@gmail.com",
+  "password": "$2a$10$C3Fqc3hpyD1zCwAFW9dCre6kdmYSe3ZOb/NyHx4UtbPS2zmIdQQcK",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64fe09bacfa49f32a382dc2d"
+  },
+  "firstname": "demo",
+  "lastname": "user",
+  "email": "demouser@gmail.com",
+  "password": "$2a$10$ybVaPPvz.aGsRWmfRwFhK.RUHWfPuOt7S1bQvOnJMazETODjyWgcK",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65cdfe4b8c06564b5794e"
+  },
+  "firstname": "newuser",
+  "lastname": "newuser",
+  "email": "newuser44@gmail.com",
+  "password": "$2a$10$dKHcK0dNVBXmBmAWhLIkMOZKzM4MPImqs8HX/S9zFGRS7O.RQDeDi",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f63d47e4b8c06564b57948"
+  },
+  "firstname": "newuser",
+  "lastname": "newuser",
+  "email": "newuser@gmail.com",
+  "password": "$2a$10$f.ybng96f54QC0xmBZbm9O.2mZ0.4PyMuH1HaCiTrtRAKhA5B3LRu",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f732bf0c1fc3443e0b3c7f"
+  },
+  "firstname": "ashma",
+  "lastname": "ashma",
+  "email": "ashma@gmail.com",
+  "password": "$2a$10$YB50wP6JTwtjSDDDoTMKPO9F1WumXSGPlcw.k9.yQt5uerYjCnKfi",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f642e0e4b8c06564b5794a"
+  },
+  "firstname": "newuser4",
+  "lastname": "newuser4",
+  "email": "newuser4@gmail.com",
+  "password": "$2a$10$dyANj44b3JX6Uu8PclqRduMn9P8xD8UhJokWtIbgB0pBGVl6ZNHfW",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f63d8ae4b8c06564b57949"
+  },
+  "firstname": "new3",
+  "lastname": "new3",
+  "email": "new3@gmail.com",
+  "password": "$2a$10$MQQ5nFVDc.4zmyDbHqGVI.gSLKbPRYv9WqaZQ0/Eh5m8b8H0MbNUy",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64fa99b04e5ecd51f5f3303c"
+  },
+  "firstname": "Amosh",
+  "lastname": "Shakya",
+  "email": "amosh@gmail.com",
+  "password": "$2a$10$63M3sehH7JUCLRkKIF1AkeQ0CxkhjVsRQIwqqCergjvlwl83eaCuu",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65ea6e4b8c06564b57953"
+  },
+  "firstname": "nayan333",
+  "lastname": "nayan333",
+  "email": "nayan333@gmail.com",
+  "password": "$2a$10$khkfvjP3blAUOOEeNPiheeetLY8d7Gj86SBt3MA3CEowXKbachfKG",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64fab2a74e5ecd51f5f3303d"
+  },
+  "firstname": "anish",
+  "lastname": "ronesh",
+  "email": "anish@gmail.com",
+  "password": "$2a$10$d.lfIQygo9tRP04WdaEpU.vKGQtIjDhoFLC3m856fop/KDE6GqYeC",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65beae4b8c06564b5794b"
+  },
+  "firstname": "newuser1",
+  "lastname": "newuser1",
+  "email": "newuser1@gmail.com",
+  "password": "$2a$10$6RRw1A1Q3BxZHXoTEpYBqONC7rijp7pcSsJXKdFtjONIIdH3SvR3m",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65c21e4b8c06564b5794c"
+  },
+  "firstname": "newuser2",
+  "lastname": "newuser2",
+  "email": "newuser2@gmail.com",
+  "password": "$2a$10$1RA3rkIlqdZXMeFPn.Hxd.6u0ALf5qK9GSzaw1RkkUHr79OScFpkK",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "64f65d3be4b8c06564b5794f"
+  },
+  "firstname": "newuser444",
+  "lastname": "newuser444",
+  "email": "newuser444@gmail.com",
+  "password": "$2a$10$9DKIm1MF8PMZbeuUV/Kk3ur0M5Ne1cfpHfXndHkYESrT7w7CuHGn2",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+},
+{
+  "_id": {
+    "$oid": "661f01efccfff538838f8a7b"
+  },
+  "firstname": "yash",
+  "lastname": "kahrel",
+  "email": "yash048339@gmail.com",
+  "password": "$2y$10$7Fsm8CC80Z5rCXOCJV1rUOsW//Az8daV3USBCAusAtsgtm1/Whvve",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers",
+  "role": "User"
+},
+{
+  "_id": {
+    "$oid": "661f0591453d1243e23885f6"
+  },
+  "firstname": "yash",
+  "lastname": "Kharel",
+  "email": "yashk@gmail.com",
+  "password": "$2a$10$0Dj5KcnCfuoEJmJqkeBR2uRSFeGF7dbcl78rvmSYG6IRedL1ZDaVS",
+  "role": "USER",
+  "_class": "com.doresuecommerce.doresu.UsersModel.RegisterUsers"
+}]
