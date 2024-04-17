@@ -18,7 +18,7 @@ import { clearProductSelection } from "../redux/features/ProductSelectSlice";
 
 
 const navigation = {
-  pages: [ { name: "Home", href: "#" },
+  pages: [ { name: "Home", href: "/" },
     { name: "About Us", href: "/aboutus" }],
   categories: [
     
