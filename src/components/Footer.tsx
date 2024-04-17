@@ -1,16 +1,9 @@
-import React from "react";
+
 
 const Footer = () => {
   return (
     <>
-      {/*
-  Heads up! 👋
-
-  Plugins:
-    - @tailwindcss/forms
-*/}
-
-      <footer className="bg-white">
+      <footer className="bg-[#f3e3d3] py-6 sm:py-8 h-[2vh] sm:h-auto">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="lg:flex lg:items-start lg:gap-8">
             <div className="text-teal-600">
@@ -18,40 +11,8 @@ const Footer = () => {
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
-              <div className="col-span-2">
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900 capitalize">
-                    Subscribe To Our Newsletter
-                  </h2>
 
-                  {/* <p className="mt-4 text-gray-500">
-                    and receive $40 coupon for your first order when you
-                    checkout
-                  </p> */}
-                </div>
-              </div>
 
-              <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-                <form className="w-full">
-                  <label htmlFor="UserEmail" className="sr-only">
-                    {" "}
-                    Email{" "}
-                  </label>
-
-                  <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4">
-                    <input
-                      type="email"
-                      id="UserEmail"
-                      placeholder="john@rhcp.com"
-                      className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
-                    />
-
-                    <button className="mt-1 w-full btn btn-base px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0">
-                      Sign Up
-                    </button>
-                  </div>
-                </form>
-              </div>
 
               <div className="col-span-2 sm:col-span-1">
                 <p className="font-medium text-gray-900">Categories</p>
@@ -175,69 +136,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="/"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    <span className="sr-only">Tiktok</span>
 
-                    <svg
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.367 8.76c-.014.1-.098.173-.192.173H9.825c-.1 0-.178-.074-.192-.173l-.22-1.602c-.018-.116.06-.226.176-.243.022-.004.043-.006.064-.006h1.688c.098 0 .187.068.208.165l.165.9c.027.156.144.283.3.308.084.013.166-.024.211-.1l.401-.732c.065-.112.22-.112.285 0l.4.732c.045.076.127.113.211.1.155-.025.272-.152.3-.308l.165-.9c.02-.097.11-.165.208-.165h1.689c.076 0 .142.05.165.12.023.07-.01.145-.065.187l-2.094 1.628z" />
-                    </svg>
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    <span className="sr-only">Pinterest</span>
-
-                    <svg
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path d="M11.991.056C5.399.056.054 5.4.054 11.993c0 4.836 3.104 8.946 7.436 10.433-.102-.906-.195-2.303.039-3.298.215-.924 1.391-5.877 1.391-5.877s-.354-.715-.354-1.77c0-1.655.961-2.891 2.16-2.891 1.019 0 1.514.768 1.514 1.685 0 1.025-.652 2.555-.992 3.977-.283 1.181.6 2.146 1.759 2.146 2.11 0 3.743-2.226 3.743-5.431 0-2.835-2.038-4.817-4.947-4.817-3.373 0-5.382 2.522-5.382 5.132 0 .997.37 1.653.937 2.162.104.124.117.232.085.376-.09.387-.295 1.223-.338 1.397-.064.255-.218.307-.49.186-1.854-.89-3.022-3.678-3.022-6.188 0-5.194 3.783-9.516 10.703-9.516 5.657 0 9.433 3.816 9.433 8.009 0 5.395-3.084 9.724-7.633 9.724-1.494 0-2.894-.77-3.373-1.683l-.918 3.575c-.254.99-.953 2.23-1.416 2.987.088.209.341.46.512.614.433.414 1.08.767 1.614.755 1.368-.028 2.415-1.675 2.415-3.238 0-2.549-1.467-4.477-3.587-4.477-1.271 0-2.236.936-2.044 2.193.397 2.05 1.176 4.265 1.176 5.731 0 .671-.368 1.234-1.127 1.234-.224 0-.405-.191-.346-.416.064-.258.187-.848.253-1.126.12-.553.066-1.215-.063-1.646-.322-1.245-.843-2.743-.843-3.684 0-1.484.855-2.743 2.624-2.743 1.233 0 2.177.85 2.177 2.004 0 1.484-.753 3.478-1.277 4.837-.093.235-.381.46-.69.386-1.428-.34-2.451-1.838-2.451-3.649 0-2.754 2.202-6.092 6.551-6.092 3.402 0 5.979 2.464 5.979 5.755 0 3.399-2.15 6.14-5.124 6.14-1.006 0-1.962-.504-2.287-1.093l-.743 2.893c-.254.99-1.127 2.229-1.676 2.986.088.209.341.46.512.614.433.414 1.08.767 1.614.755 1.368-.028 2.415-1.675 2.415-3.238 0-2.088-1.192-4.398-3.322-4.398-1.265 0-2.236.936-2.044 2.193z" />
-
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/channel/UCPt4JeUCmlYWX0lhQrdcyBg"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    <span className="sr-only">Youtube</span>
-
-                    <svg
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.25 15.755l5.533-3.162-5.533-3.162v6.324z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -281,6 +180,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
     </>
   );
 };

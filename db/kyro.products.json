@@ -27,7 +27,7 @@
 },
 {
   "_id": {
-    "$oid": "64fd16d8df1bc116872c8cca"
+    "$oid": "66205c20c58d02e72e59d453"
   },
   "title": "Chew Bars",
   "description": "Long Lasting Chews",
@@ -48,8 +48,35 @@
   ],
   "featured": "",
   "type": "Bars",
-  "preference": "Men",
+  "preference": "All Dogs",
   "category": "Bars",
+  "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "66205c31c58d02e72e59d454"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/9.jpg",
+    "../src/assets/9.jpg",
+    "../src/assets/9.jpg",
+    "../src/assets/9.jpg"
+  ],
+  "featured": "",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
   "_class": "com.kyro.products.model.Products"
 }
 ]
