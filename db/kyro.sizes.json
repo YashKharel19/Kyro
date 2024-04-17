@@ -2,127 +2,31 @@
   "_id": {
     "$oid": "64f78c36d4a17566e38285e8"
   },
-  "name": "30W x 32L",
+  "name": "small",
   "quantity": 25,
-  "_class": "com.doresuecommerce.products.model.Size"
+  "_class": "com.kyro.products.model.Size"
 },
 {
   "_id": {
     "$oid": "64f78b99d4a17566e38285de"
   },
-  "name": "US 6",
+  "name": "medium",
   "quantity": 14,
-  "_class": "com.doresuecommerce.products.model.Size"
+  "_class": "com.kyro.products.model.Size"
 },
 {
   "_id": {
     "$oid": "64f78c35d4a17566e38285e7"
   },
-  "name": "28W x 30L",
+  "name": "large",
   "quantity": 20,
-  "_class": "com.doresuecommerce.products.model.Size"
+  "_class": "com.kyro.products.model.Size"
 },
 {
   "_id": {
     "$oid": "64f78b99d4a17566e38285df"
   },
-  "name": "US 7",
+  "name": "X-Large",
   "quantity": 18,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f79170d4a17566e3828621"
-  },
-  "name": "32",
-  "quantity": 30,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f791cbd4a17566e382862a"
-  },
-  "name": "40R",
-  "quantity": 12,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f787c7d4a17566e38285b6"
-  },
-  "name": "Large",
-  "quantity": 20,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f79170d4a17566e3828622"
-  },
-  "name": "34",
-  "quantity": 35,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f791cbd4a17566e382862c"
-  },
-  "name": "44R",
-  "quantity": 14,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f7905bd4a17566e3828614"
-  },
-  "name": "34W x 36L",
-  "quantity": 18,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f787c7d4a17566e38285b5"
-  },
-  "name": "Medium",
-  "quantity": 30,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f791cbd4a17566e382862b"
-  },
-  "name": "42R",
-  "quantity": 18,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f78c36d4a17566e38285e9"
-  },
-  "name": "32W x 34L",
-  "quantity": 18,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f787c7d4a17566e38285b4"
-  },
-  "name": "Small",
-  "quantity": 25,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f78b99d4a17566e38285e0"
-  },
-  "name": "US 8",
-  "quantity": 12,
-  "_class": "com.doresuecommerce.products.model.Size"
-},
-{
-  "_id": {
-    "$oid": "64f79170d4a17566e3828623"
-  },
-  "name": "36",
-  "quantity": 25,
-  "_class": "com.doresuecommerce.products.model.Size"
+  "_class": "com.kyro.products.model.Size"
 }]

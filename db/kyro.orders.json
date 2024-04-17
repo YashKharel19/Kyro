@@ -47,7 +47,7 @@
       "subtotal": 69.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -133,7 +133,7 @@
       "subtotal": 239.98
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -172,7 +172,7 @@
       "subtotal": 59.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -223,7 +223,7 @@
       "subtotal": 149.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -286,7 +286,7 @@
       "subtotal": 479.92
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -336,7 +336,7 @@
       "subtotal": 54.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -375,7 +375,7 @@
       "subtotal": 49.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -426,7 +426,7 @@
       "subtotal": 69.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -461,7 +461,7 @@
       "subtotal": 179.97
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -500,7 +500,7 @@
       "subtotal": 19.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -562,7 +562,7 @@
       "subtotal": 79.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -598,7 +598,7 @@
       "subtotal": 59.97
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -661,7 +661,7 @@
       "subtotal": 34.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -711,7 +711,7 @@
       "subtotal": 299.98
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -750,7 +750,7 @@
       "subtotal": 69.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -789,7 +789,7 @@
       "subtotal": 299.95
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -852,7 +852,7 @@
       "subtotal": 59.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -891,7 +891,7 @@
       "subtotal": 59.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 },
 {
   "_id": {
@@ -942,5 +942,5 @@
       "subtotal": 54.99
     }
   ],
-  "_class": "com.doresuecommerce.products.model.Orders"
+  "_class": "com.kyro.products.model.Orders"
 }]
