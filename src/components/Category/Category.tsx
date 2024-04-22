@@ -26,9 +26,9 @@ const StepCard: React.FC<StepCardProps> = ({ imageUrl, stepTitle, children }) =>
 
 const Category: React.FC = () => {
   return (
-    <section style={{ backgroundColor: '#E5C7A8' }}>
+    <section style={{ backgroundColor: '#F3E3D3' }}>
       <div className="container mx-auto px-4 py-12">
-        <h2 className="text-gray-900 font-medium uppercase title-font text-2xl mb-8 text-center">Our Size Catalog</h2>
+        <h4 className="text-gray-900 font-medium uppercase title-font text-2xl mb-8 text-center">Our Size Catalog</h4>
 
         <div className="flex flex-wrap justify-center items-center mb-12">
           <StepCard
@@ -47,7 +47,7 @@ const Category: React.FC = () => {
               "LENGTH (CM) : 10-14 CM"
             ]}
           />
-           <StepCard
+          <StepCard
             imageUrl="../../../src/assets/Sizes/3.png"
             stepTitle="LARGE CHEWS"
             children={[
