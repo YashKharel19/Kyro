@@ -9,8 +9,8 @@ interface StepCardProps {
 const StepCard: React.FC<StepCardProps> = ({ imageUrl, stepTitle, children }) => {
   return (
     <div className="w-full sm:w-1/2 md:w-1/4 p-4 flex justify-center">
-      <div className="bg-white border border-gray-300 rounded-lg shadow-md text-center">
-        <img src={imageUrl} alt="Step Image" className="h-40 w-auto object-contain p-4" />
+      <div className="bg-white border border-gray-300 rounded-lg shadow-2xl text-center">
+        <img src={imageUrl} alt="Step Image" className="h-60 w-auto object-contain p-4" />
         <div className="p-4">
           <h3 className="text-lg font-bold mb-2" style={{ color: '#523129' }}>{stepTitle}</h3>
           <ul className="text-base text-gray-700 font-medium list-none">
