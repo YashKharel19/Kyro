@@ -19,7 +19,7 @@
     "../src/assets/18.jpg",
     "../src/assets/18.jpg"
   ],
-  "featured": "",
+  "featured": "Top Rated",
   "type": "Nuggets",
   "preference": "Men",
   "category": "Bars",
@@ -46,7 +46,7 @@
     "../src/assets/10.jpg",
     "../src/assets/10.jpg"
   ],
-  "featured": "",
+  "featured": "Top Rated",
   "type": "Bars",
   "preference": "All Dogs",
   "category": "Bars",
@@ -73,7 +73,7 @@
     "../src/assets/9.jpg",
     "../src/assets/9.jpg"
   ],
-  "featured": "",
+  "featured": "Top Rated",
   "type": "Puffed",
   "preference": "Small Dogs",
   "category": "puffed",

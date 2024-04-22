@@ -1,6 +1,6 @@
 import MainCarousel from "../../components/Carousel/home/MainCarousel";
 import Category from "../../components/Category/Category";
-import ExploreProducts from "../../components/TrendingProducts/ExploreProducts";
+import Testimonial from "../../components/Testimonials/Testimonial";
 import HomeFeatured from "../../components/TrendingProducts/HomeFeatured";
 import PopularProducts from "../../components/TrendingProducts/PopularProducts";
 
@@ -10,7 +10,7 @@ const Home = () => {
       <MainCarousel />
       <HomeFeatured />
       <Category />
-      <ExploreProducts />
+      <Testimonial />
       <PopularProducts />
     </>
   );
