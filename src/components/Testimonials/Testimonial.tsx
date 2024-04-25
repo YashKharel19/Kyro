@@ -36,8 +36,8 @@ const Testimonial: React.FC = () => {
               <div className="bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="px-6 py-4">
                   <div className="flex items-center">
-                    <div className="w-16 h-16 overflow-hidden rounded-full mr-4">
-                      <img className="object-cover w-full h-full" src={testimonial.imageUrl} alt={testimonial.name} />
+                    <div className="w-16 h-16 overflow-hidden rounded-full flex-shrink-0 mr-4">
+                      <img className="object-cover w-full h-full rounded-full" src={testimonial.imageUrl} alt={testimonial.name} />
                     </div>
                     <div>
                       <div className="text-gray-700 text-base mb-2 relative">
