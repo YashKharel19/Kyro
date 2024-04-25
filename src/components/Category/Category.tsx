@@ -28,7 +28,7 @@ const Category: React.FC = () => {
   return (
     <section style={{ backgroundColor: '#F3E3D3' }}>
       <div className="container mx-auto px-4 py-12">
-        <h4 className="text-gray-900 font-medium uppercase title-font text-2xl mb-8 text-center">Our Size Catalog</h4>
+        <h4 className="uppercase title-font text-2xl mb-8 text-center">Our Size Catalog</h4>
 
         <div className="flex flex-wrap justify-center items-center mb-12">
           <StepCard

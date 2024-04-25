@@ -122,7 +122,7 @@ const HomeFeatured = () => {
               />
               <div className="absolute h-full w-full bg-black/40 flex flex-col items-center justify-center -left-10 group-hover:left-0 opacity-0 group-hover:opacity-100 transition-all duration-300 gap-10">
                 <h2 className="text-white text-xl Capitalized">{item.title}</h2>
-
+ 
                 <p className="text-white text-2xl bg-neutral w-full text-center p-3">
                   $ {item.price}
                 </p>

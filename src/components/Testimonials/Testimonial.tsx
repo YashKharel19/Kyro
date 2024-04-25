@@ -1,41 +1,17 @@
 import React from 'react';
 
-const Testimonial: React.FC = () => {
+const Testimonial = () => {
   return (
-    <div id="tb_cms_testimonial" className="bg-gray-100">
-      <div id="tb-testimonial-cms">
-        <div className="TB-Commen-Heading">
-          <h3 className="text-3xl font-bold mb-4">Testimonial</h3>
-        </div>
-        <div className="container mx-auto">
-          <div className="tb-testimonial-flex owl-loaded owl-drag">
-            <div className="owl-stage-outer">
-              <div className="owl-stage">
-                <div className="owl-item">
-                  <div className="tb-testimonial-section bg-white rounded-lg p-6 shadow-md">
-                    <div className="tb-testimonial-text">
-                      <p className="text-gray-800">
-                        Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts
-                        black-eyed pea prairie turnip leek lentil turnip greens parsnip.
-                      </p>
-                    </div>
-                    <div className="tb-testimonial-img-content flex items-center mt-4">
-                      <div className="tb-testimonial-img mr-4">
-                        <img src="img/tb/tb-testimonial-img-01.jpg" className="w-16 h-16 rounded-full" alt="tb-testimonial-img" />
-                      </div>
-                      <div className="tb-testimonial-text1">
-                        <h2 className="text-xl font-semibold">Daly Harry</h2>
-                        <h3 className="text-gray-600">Web Designer</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Repeat the same structure for other testimonials */}
-              </div>
-            </div>
-            {/* Owl Carousel navigation */}
-          </div>
-        </div>
+    <div className="max-w-xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">John Doe</div>
+        <p className="text-gray-700 text-base">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit ut tellus ultrices porta."
+        </p>
+      </div>
+      <div className="px-6 py-4">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#testimonial</span>
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#happy</span>
       </div>
     </div>
   );
