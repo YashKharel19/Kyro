@@ -8,6 +8,7 @@ import Register from "./pages/welcome/Register";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Home from "./pages/home/Home";
 import Product from "./pages/products/Product";
+import AboutUs from "./pages/AboutUs/AboutUs";
 import Order from "./pages/orders/Order";
 import Store from "./pages/products/Store";
 import { Provider } from "react-redux";
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/aboutus",
+    element: <AboutUs />,
   },
   {
     path: "/admin",
