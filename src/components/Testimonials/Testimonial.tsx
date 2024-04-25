@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 interface TestimonialItem {
   id: number;
@@ -12,7 +14,7 @@ const testimonials: TestimonialItem[] = [
     id: 1,
     name: 'John Doe',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit ut tellus ultrices porta.',
-    imageUrl: 'https://via.placeholder.com/150/b04f2e',
+    imageUrl: 'https://via.placeholder.com/150',
   },
   {
     id: 2,
@@ -24,34 +26,26 @@ const testimonials: TestimonialItem[] = [
 ];
 
 const Testimonial: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const handlePrev = () => {
-    setActiveIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
-  };
-
-  const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
-  };
-
   return (
-    <div className="testimonial-container">
-      <div className="relative">
-        <div className="testimonial-card overflow-hidden rounded-lg shadow-lg">
-          <div className="testimonial-content p-6">
-            <p className="text-gray-700 text-lg sm:text-xl">{testimonials[activeIndex].content}</p>
-            <h3 className="font-bold text-xl sm:text-2xl mt-4">{testimonials[activeIndex].name}</h3>
-          </div>
-          <div className="testimonial-image absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-            <img src={testimonials[activeIndex].imageUrl} alt={testimonials[activeIndex].name} className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-white" />
+    <Carousel autoPlay infiniteLoop showArrows showStatus={false} showIndicators={false} showThumbs={false}>
+      {testimonials.map((testimonial) => (
+        <div key={testimonial.id} className="p-4">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div className="px-6 py-4">
+              <div className="flex items-center">
+                <div className="w-16 h-16 overflow-hidden rounded-full mr-4">
+                  <img className="object-cover w-full h-full" src={testimonial.imageUrl} alt={testimonial.name} />
+                </div>
+                <div>
+                  <div className="font-bold text-xl mb-2">{testimonial.name}</div>
+                  <p className="text-gray-700 text-base">{testimonial.content}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="controls absolute top-1/2 left-0 transform -translate-y-1/2">
-          <button onClick={handlePrev} className="text-2xl sm:text-3xl mr-4">&#10094;</button>
-          <button onClick={handleNext} className="text-2xl sm:text-3xl">&#10095;</button>
-        </div>
-      </div>
-    </div>
+      ))}
+    </Carousel>
   );
 };
 
