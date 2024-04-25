@@ -1,17 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Testimonial.css'; // Import CSS file for styling
 
-const Testimonial = () => {
+interface TestimonialItem {
+  id: number;
+  name: string;
+  content: string;
+  imageUrl: string;
+}
+
+const testimonials: TestimonialItem[] = [
+  {
+    id: 1,
+    name: 'John Doe',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit ut tellus ultrices porta.',
+    imageUrl: 'https://via.placeholder.com/150',
+  },
+  {
+    id: 2,
+    name: 'Jane Smith',
+    content: 'Sed euismod dictum mi a commodo. Nunc auctor dolor eget ante fermentum, in hendrerit turpis bibendum.',
+    imageUrl: 'https://via.placeholder.com/150',
+  },
+  // Add more testimonials as needed
+];
+
+const Testimonial: React.FC = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handlePrev = () => {
+    setActiveIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
+  };
+
+  const handleNext = () => {
+    setActiveIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
+  };
+
   return (
-    <div className="max-w-xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">John Doe</div>
-        <p className="text-gray-700 text-base">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit ut tellus ultrices porta."
-        </p>
+    <div className="testimonial-container">
+      <div className="testimonial">
+        <div className="testimonial-content">
+          <p>{testimonials[activeIndex].content}</p>
+          <h3>{testimonials[activeIndex].name}</h3>
+        </div>
+        <div className="testimonial-image">
+          <img src={testimonials[activeIndex].imageUrl} alt={testimonials[activeIndex].name} />
+        </div>
       </div>
-      <div className="px-6 py-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#testimonial</span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#happy</span>
+      <div className="controls">
+        <button onClick={handlePrev}>&#10094;</button>
+        <button onClick={handleNext}>&#10095;</button>
       </div>
     </div>
   );
