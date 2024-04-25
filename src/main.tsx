@@ -51,10 +51,7 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
-  {
-    path: "/aboutus",
-    element: <AboutUs />,
-  },
+  
   {
     path: "/admin",
     element: <AdminLogin />,
@@ -100,6 +97,10 @@ const router = createBrowserRouter([
       {
         path: "/checkout-success",
         element: <CheckoutSuccess />,
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs />,
       },
     ],
   },
