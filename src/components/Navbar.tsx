@@ -345,7 +345,7 @@ export default function Navbar() {
                   <span className="sr-only">Kyro</span>
                   <img
                     className=" h-14 w-14"
-                    src='../../public/Logo.png'
+                    src='../../public/logo.svg'
                     alt=""
                   />
                 </Link>
