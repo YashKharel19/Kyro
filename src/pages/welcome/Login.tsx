@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useLoginUserMutation } from "../../redux/service/AuthApi";
 import { useAppDispatch } from "../../redux/hooks/Hooks";
 import { setToken } from "../../redux/features/AuthSlice";
+import "../../../public/logo.svg"
 
 interface IFormInput {
   email: string;
@@ -75,7 +76,7 @@ const Login = () => {
           className="h-[100vh] flex items-center justify-center"
           style={{
             backgroundImage:
-              "url('https://img.freepik.com/free-photo/craft-shopping-bags-with-sale-inscriptions_23-2147957083.jpg?w=996&t=st=1693844455~exp=1693845055~hmac=28268b87e5ae790e8cde4851b6b4d0c862dab9035203c81959e3125ddb7a4777')",
+              "url('../../../src/assets/login/loginbg.svg')",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
@@ -87,7 +88,7 @@ const Login = () => {
             >
               <div
                 className="
-            bg-[url('https://media.istockphoto.com/id/1205852959/vector/dressshop.jpg?s=612x612&w=0&k=20&c=NMaPeISc7JmVGmQgDM2ZVoLGuMcBaIfj1-CQAxE-GlY=')]
+            bg-[url('../../../src/assets/login/login.svg')]
             w-full lg:w-1/2 flex flex-col p-12 bg-norepeat bg-cover bg-center
             "
               ></div>
@@ -95,8 +96,8 @@ const Login = () => {
               <div className="w-full lg:w-1/2 py-16 px-12">
                 <div className="flex justify-center items-center">
                   <img
-                    src="https://user-images.githubusercontent.com/110303752/265511884-9b5ba805-6e22-48a6-b4c7-aab8d1232047.png"
-                    alt=""
+                    src="../../../public/logo.svg"
+                    alt="Kyro logo "
                     className="relative max-w-[200px] items-center mb-2"
                   />
                 </div>

@@ -78,10 +78,10 @@ const Register = () => {
       <ToastContainer />
       <form onSubmit={handleSubmit}>
         <div
-          className="h-[100vh] flex items-center justify-center"
+          className="h-full flex items-center justify-center"
           style={{
             backgroundImage:
-              "url('https://img.freepik.com/free-photo/colorful-shopping-bags-white-surface_23-2147889071.jpg?w=1800&t=st=1693847046~exp=1693847646~hmac=f8f83674fc1adf9b5a98459147863cfd0a9d2f2f38daa36fe54bc9f927898b93')",
+              "url('../../../src/assets/register/registerbg.svg')",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
@@ -93,7 +93,7 @@ const Register = () => {
             >
               <div
                 className="
-          bg-[url('https://img.freepik.com/free-vector/costumers-using-digital-gadgets-online-shopping-sales-professional-drones-delivering-parcels-from-internet-stores-female-users-flat-vector-illustration-delivery-ecommerce-concept_74855-22426.jpg?w=1380&t=st=1693847309~exp=1693847909~hmac=606420af5ff546170e8dab60fe6f7b05b6cc8d49cc2b46766ef7bb3b584f09ef')]
+          bg-[url('../../../src/assets/register/register.svg')]
           w-full lg:w-1/2 flex flex-col p-12 bg-norepeat bg-cover bg-center
           "
               ></div>
@@ -101,8 +101,8 @@ const Register = () => {
               <div className="w-full lg:w-1/2 py-16 px-12">
                 <div className="flex justify-center items-center">
                   <img
-                    src="https://user-images.githubusercontent.com/110303752/265511884-9b5ba805-6e22-48a6-b4c7-aab8d1232047.png"
-                    alt=""
+                    src="../../../public/logo.svg"
+                    alt="Kyro logo "
                     className="relative max-w-[200px] items-center mb-2"
                   />
                 </div>
