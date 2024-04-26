@@ -47,13 +47,10 @@ const Testimonial: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-gray-700 text-base mb-2 relative">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute top-0 left-0 transform -translate-y-1/2 -translate-x-1/2" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2h1a1 1 0 110 2h-1v6a2 2 0 01-2 2H4a2 2 0 01-2-2V9H1a1 1 0 010-2h1V5zm2 0h12v2H4V5z" clipRule="evenodd" />
-                      </svg>
+                      <img src="../../../src/assets/testimonials/left.svg" className="inline-block h-2 w-2 absolute top-0 left-0 transform -translate-y-1/2 -translate-x-1/2" />
                       <p className="inline">{testimonial.content}</p>
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M18 5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V5zM4 3a1 1 0 00-1 1v8a1 1 0 001 1h12a1 1 0 001-1V4a1 1 0 00-1-1H4z" clipRule="evenodd" />
-                      </svg>
+                      <img src="../../../src/assets/testimonials/right.svg" className="inline-block h-2 w-2 absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2" />
+
                     </div>
                     <div className="text-gray-600 text-sm">
                       - {testimonial.name}
