@@ -12,17 +12,23 @@ interface TestimonialItem {
 const testimonials: TestimonialItem[] = [
   {
     id: 1,
-    name: 'John Doe',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit ut tellus ultrices porta.',
+    name: 'Nancy',
+    content: 'My dog has a sensitive stomach, but these natural chew bars have never caused any ssues. Plus, they keep him entertained for hours! I love how long lasting these chews are.',
     imageUrl: 'https://via.placeholder.com/150',
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    content: 'Sed euismod dictum mi a commodo. Nunc auctor dolor eget ante fermentum, in hendrerit turpis bibendum.',
+    name: 'Jennifer',
+    content: 'These chew bars have become a staple in our household. Our dogs can’t get enough, and we love that they’re made with wholesome ingredients.',
     imageUrl: 'https://via.placeholder.com/150',
   },
-  // Add more testimonials as needed
+  {
+    id: 3,
+    name: 'Nick',
+    content: 'I’m impressed by the variety of sizes available. It’s so convenient to order all my dogs’ chew bars from one place.” Thank you KYRO.',
+    imageUrl: 'https://via.placeholder.com/150',
+  },
+
 ];
 
 const Testimonial: React.FC = () => {
