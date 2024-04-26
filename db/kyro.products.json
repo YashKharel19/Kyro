@@ -78,5 +78,140 @@
   "preference": "Small Dogs",
   "category": "puffed",
   "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "662c02103494771b9291265b"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg"
+  ],
+  "featured": "Best Sellers",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
+  "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "662c02103494771b9291265c"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/12.jpg",
+    "../src/assets/12.jpg",
+    "../src/assets/12.jpg",
+    "../src/assets/12.jpg"
+  ],
+  "featured": "Best Sellers",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
+  "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "662c02103494771b9291265d"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg",
+    "../src/assets/13.jpg"
+  ],
+  "featured": "New Arrivals",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
+  "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "662c02103494771b9291265e"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/14.jpg",
+    "../src/assets/14.jpg",
+    "../src/assets/14.jpg",
+    "../src/assets/14.jpg"
+  ],
+  "featured": "New Arrivals",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
+  "_class": "com.kyro.products.model.Products"
+},
+{
+  "_id": {
+    "$oid": "662c02903494771b9291265f"
+  },
+  "title": "Cheese Puffed",
+  "description": "Tasty Puffed",
+  "price": 19.99,
+  "brand": "yakchews",
+  "color": "White",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large"
+  ],
+  "images": [
+    "../src/assets/7.jpg",
+    "../src/assets/7.jpg",
+    "../src/assets/7.jpg",
+    "../src/assets/7.jpg"
+  ],
+  "featured": "New Arrivals",
+  "type": "Puffed",
+  "preference": "Small Dogs",
+  "category": "puffed",
+  "_class": "com.kyro.products.model.Products"
 }
 ]
