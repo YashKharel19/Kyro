@@ -1,5 +1,4 @@
 import React from 'react';
-
 const AboutUs: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-12">
@@ -8,7 +7,7 @@ const AboutUs: React.FC = () => {
       <div className="flex flex-wrap justify-center items-center mb-12">
         <div className="w-full md:w-1/2">
           <img
-            src=""
+            src="../../../src/assets/about/about.jpg"
             alt="About Us"
             className="mx-auto md:mx-0 max-w-full h-auto md:h-full"
           />
