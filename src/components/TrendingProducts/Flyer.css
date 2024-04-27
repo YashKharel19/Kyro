@@ -1,12 +1,16 @@
-@keyframes marquee {
+@keyframes zoom {
     0% {
-      transform: translateX(100%);
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
     }
     100% {
-      transform: translateX(-100%);
+      transform: scale(1);
     }
   }
   
-  .animate-marquee {
-    animation: marquee 10s linear infinite;
+  .animate-zoom {
+    animation: zoom 5s ease-in-out infinite;
   }
+  
