@@ -95,11 +95,14 @@ const Login = () => {
 
               <div className="w-full lg:w-1/2 py-16 px-12">
                 <div className="flex justify-center items-center">
-                  <img
-                    src="../../../public/logo.svg"
-                    alt="Kyro logo "
-                    className="relative max-w-[200px] items-center mb-2"
-                  />
+                  <Link to="/">
+                    <img
+                      src="../../../public/logo.svg"
+                      alt="Kyro logo "
+                      className="relative max-w-[200px] items-center mb-2"
+                    />
+                  </Link>
+
                 </div>
                 <h2 className="text-3xl mb-4 text-neutral">Login</h2>
                 <p className="mb-4 text-gray-500">Sign in to your account</p>
