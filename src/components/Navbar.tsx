@@ -246,12 +246,12 @@ export default function Navbar() {
                   {!user ? (
                     <>
                       <div className="flow-root">
-                        <a
-                          href="#"
+                        <Link
+                          to="/login"
                           className="-m-2 block p-2 font-medium text-gray-900"
                         >
                           Sign in
-                        </a>
+                        </Link>
                       </div>
                       <div className="flow-root">
                         <Link
