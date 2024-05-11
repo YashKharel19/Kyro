@@ -79,7 +79,7 @@ const Footer = () => {
 
                   <li>
                     <a
-                      href="#"
+                      href="/store"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       Stores

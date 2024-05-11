@@ -1,29 +1,7 @@
-export const color = [
-  "white",
-  "Black",
-  "Red",
-  "Indigo",
-  "Beige",
-  "Pink",
-  "Green",
-  "Yellow",
-];
+
 
 export const filters = [
-  {
-    id: "color",
-    name: "Color",
-    options: [
-      { value: "white", label: "White" },
-      { value: "beige", label: "Beige" },
-      { value: "blue", label: "Blue" },
-      { value: "brown", label: "Brown" },
-      { value: "green", label: "Green" },
-      { value: "indigo", label: "Indigo" },
-      { value: "yellow", label: "Yellow" },
-    ],
-  },
-  {
+ {
     id: "size",
     name: "Size",
     options: [

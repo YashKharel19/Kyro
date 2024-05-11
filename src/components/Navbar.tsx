@@ -28,14 +28,14 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "#",
+          href: "/store",
           imageSrc:"../../public/packaging.png",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
         {
           name: "Featured",
-          href: "#",
+          href: "/store",
           imageSrc:"../../public/packaging.png",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
@@ -46,25 +46,25 @@ const navigation = {
           id: "chewbars",
           name: "Chew Bars",
           items: [
-            { name: "Small", href: "#" },
-            { name: "Medium", href: "#" },
-            { name: "Large", href: "#" },
-            { name: "X-Large", href: "#" },
+            { name: "Small", href: "/store" },
+            { name: "Medium", href: "/store" },
+            { name: "Large", href: "/store" },
+            { name: "X-Large", href: "/store" },
           ],
         },
         {
           id: "treats",
           name: "Treats",
           items: [
-            { name: "Puffed Nuggets", href: "#" },
-            { name: "Nuggets", href: "#" },
+            { name: "Puffed Nuggets", href: "/store" },
+            { name: "Nuggets", href: "/store" },
           ],
         },
         {
           id: "catcaves",
           name: "Cat Cave",
           items: [
-            { name: "Designer Cat Cave", href: "#" },
+            { name: "Designer Cat Cave", href: "/store" },
            
           ],
         },
@@ -91,8 +91,10 @@ export default function Navbar() {
   const cartProducts = useAppSelector((state: RootState) => state.cart);
 
   const handleCategoryClick = (category, section, item, close) => {
-    navigate(`store/${category.id}/${section.id}/${item.name}`);
-    closeCartMenu();
+    // navigate(`store/${category.id}/${section.id}/${item.name}`);
+    // setCartMenuOpen(true);
+    navigate('store');
+    // closeCartMenu();
   };
   //CART ENDS
   return (
