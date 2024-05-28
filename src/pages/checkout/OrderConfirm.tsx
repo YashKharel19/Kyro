@@ -13,23 +13,27 @@ import axios from "axios";
 
 const OrderConfirm = () => {
   const orderDetails = useAppSelector((state: RootState) => state.orderSummary);
-  const user = useAppSelector((state: RootState) => state.auth);
+  // const user = useAppSelector((state: RootState) => state.auth);
+  
+  
+  const extractFoxyPayload = () => {
+    const { orderItems } = orderDetails;
+  
+    return orderItems.map(item => ({
+      name: item.productName,
+      price: item.price.toFixed(2), 
+      quantity: item.quantity,
+      code: item.productId,
+      options: {
+        size: item.productSize,
+        color: item.productColor
+      }
+    }));
+  };
 
-  // const handlePayment = () => {
-  //   axios
-  //     .post(`/create-checkout-session`, {
-  //       orderDetails,
-  //       userId: user.userDetails?.email,
-  //     })
-  //     .then((res) => {
-  //       if (res.data.url) {
-  //         window.location.href = res.data.url;
-  //       }
-  //     })
-  //     .catch((err) => console.error(err.message));
-  // };
 
   const handlePayment = async () => {
+    const cartItems = extractFoxyPayload();
     const storeDomain = import.meta.env.VITE_FOXY_STORE_DOMAIN;
     console.log('Store Domain:', storeDomain);
 
@@ -42,8 +46,8 @@ const OrderConfirm = () => {
 
     try {
       const response = await axios.post(`https://${storeDomain}/cart`, {
-        orderDetails,
-        userId: user.userDetails?.email,
+       
+        cartItems,
       }, {
               headers: {
                 'Content-Type': 'application/json',
