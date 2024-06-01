@@ -9,56 +9,17 @@ import { BsAlipay } from "react-icons/bs";
 import { PiContactlessPayment } from "react-icons/pi";
 
 import { RiVisaLine } from "react-icons/ri";
-import axios from "axios";
+
+import { useNavigate } from "react-router-dom";
 
 const OrderConfirm = () => {
   const orderDetails = useAppSelector((state: RootState) => state.orderSummary);
-  // const user = useAppSelector((state: RootState) => state.auth);
-  
-  
-  const extractFoxyPayload = () => {
-    const { orderItems } = orderDetails;
-  
-    return orderItems.map(item => ({
-      name: item.productName,
-      price: item.price.toFixed(2), 
-      quantity: item.quantity,
-      code: item.productId,
-      options: {
-        size: item.productSize,
-        color: item.productColor
-      }
-    }));
-  };
+  const navigate = useNavigate();
+ 
+  const proceedPayment = () => {
+    navigate(`/checkout/paymentpage`);
+  }
 
-
-  const handlePayment = async () => {
-    const cartItems = extractFoxyPayload();
-    const storeDomain = import.meta.env.VITE_FOXY_STORE_DOMAIN;
-    console.log('Store Domain:', storeDomain);
-
-    if (!storeDomain) {
-      console.error('Environment variable VITE_FOXY_STORE_DOMAIN is not defined');
-      return;
-    }
-
-   
-
-    try {
-      const response = await axios.post(`https://${storeDomain}/cart`, {
-       
-        cartItems,
-      }, {
-              headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${import.meta.env.VITE_APP_FOXY_API_KEY}`
-              }
-            });
-      console.log('Response:', response.data);
-    } catch (error) {
-      console.error('Error adding to cart:', error);
-    }
-  };
    
     return (
       <>
@@ -204,15 +165,16 @@ const OrderConfirm = () => {
                   </div>
                   <div className="flex w-full justify-center items-center pt-1 md:pt-4  xl:pt-8 space-y-6 md:space-y-8 flex-col">
                     <button
-                      onClick={handlePayment}
+                      onClick={proceedPayment}
                       className=" flex justify-center items-center gap-4 py-5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800  w-full text-base font-medium leading-4 text-white bg-gray-800 hover:bg-black"
                     >
-                      Proceed to Pay <FaCcPaypal className="text-3xl " />
-                      <RiVisaLine className="text-3xl" />
+                      Proceed to Pay 
+                      {/* <FaCcPaypal className="text-3xl " />
+                      <RiVisaLine className="text-3xl" /> */}
                     </button>
                   </div>
 
-                  <div className="flex gap-3 justify-center text-center items-center">
+                  {/* <div className="flex gap-3 justify-center text-center items-center">
                     <FaCcStripe className="text-3xl text-indigo-500" />
                     <FaGooglePay className="text-3xl " />
                     <FaApplePay className="text-3xl" />
@@ -220,7 +182,7 @@ const OrderConfirm = () => {
                     <SiRazorpay className="text-3xl text-blue-500" />
                     <BsAlipay className="text-3xl text-red-800" />
                     <PiContactlessPayment className="text-3xl" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

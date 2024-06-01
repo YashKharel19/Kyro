@@ -28,6 +28,7 @@ import SingleOrder from "./Admin/Home/OrderPage/SingleOrder";
 import CheckoutSuccess from "./pages/checkout/CheckoutSuccess";
 import AdminLogin from "./Admin/Login/AdminLogin";
 import AdminProtectedRoute from "./Admin/Login/AdminProtectedRoute";
+import PaymentPage from "./pages/checkout/PaymentPage";
 
 const router = createBrowserRouter([
   {
@@ -45,19 +46,20 @@ const router = createBrowserRouter([
       { path: "users/:id", element: <SingleUser /> },
       { path: "orders", element: <AdminOrders /> },
       { path: "orders/:orderID", element: <SingleOrder /> },
+
     ],
   },
   {
     path: "/login",
     element: <Login />,
   },
-  
+
   {
     path: "/admin",
     element: <AdminLogin />,
   },
   { path: "/register", element: <Register /> },
-  {path:"/contactUs", element: <ContactUs />},
+  { path: "/contactUs", element: <ContactUs /> },
   {
     path: "/",
     element: <Layout />,
@@ -94,6 +96,9 @@ const router = createBrowserRouter([
         path: "/checkout/orderconfirm",
         element: <OrderConfirm />,
       },
+      { 
+        path: "/checkout/paymentpage", 
+        element: <PaymentPage /> },
       {
         path: "/checkout-success",
         element: <CheckoutSuccess />,
